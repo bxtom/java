@@ -20,17 +20,10 @@ public class Main {
         }
 
         int sum = 0;
-        int min = 0;
-        int max = 0;
-        boolean firstPass = true;
+        int min = numbers[0];
+        int max = numbers[0];
 
         for (int number : numbers) {
-            if (firstPass) {
-                min = number;
-                max = number;
-                firstPass = false;
-            }
-
             sum += number;
             if (number < min) min = number;
             if (number > max) max = number;
