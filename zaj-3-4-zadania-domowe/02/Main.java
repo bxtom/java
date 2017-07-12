@@ -1,3 +1,11 @@
+/*
+* 2. (Poziom 2) Zaprojektuj typ enum, składający się z nazw kilku marek telefonów. 
+* Do każdej z marek powinno być przypisane pole przechowujące informację w formie 
+* liczby całkowitej określające popularność danej marki (od 1 do 3). 
+* Pobierz od użytkownika markę telefonu i wyświetl informację jak popularna jest 
+* marka używając zdefiniowanego typu Enum.
+*/
+
 import java.util.Scanner;
 
 public class Main {
