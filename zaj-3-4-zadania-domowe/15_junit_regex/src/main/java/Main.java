@@ -20,16 +20,23 @@
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(new IpFinder("Serwer gry dostępny jest pod adresem 10.234.20.90 - miłej zabawy!").hasIp());
-        System.out.println(new IpFinder("Serwer gry dostępny jest pod adresem 10.234.20.90 - miłej zabawy!").getIp());
+        String[] testStrings = new String[4];
 
-        System.out.println(new IpFinder("Adres domeny mojafirma.com to 23.340.45.900").hasIp());
-        System.out.println(new IpFinder("Adres domeny mojafirma.com to 23.340.45.900").getIp());
+        testStrings[0] = "Serwer gry dostępny jest pod adresem 10.234.20.90 - miłej zabawy!";
+        testStrings[1] = "Adres domeny mojafirma.com to 23.340.45.900";
+        testStrings[2] = "Współrzędne to 90.3454 stopnie na północ";
+        testStrings[3] = "Tu nie ma nawet żadnych cyfr!";
 
-        System.out.println(new IpFinder("Współrzędne to 90.3454 stopnie na północ").hasIp());
-        System.out.println(new IpFinder("Współrzędne to 90.3454 stopnie na północ").getIp());
+        System.out.println(new IpFinder(testStrings[0]).hasIp());
+        System.out.println(new IpFinder(testStrings[0]).getIp());
 
-        System.out.println(new IpFinder("Tu nie ma nawet żadnych cyfr!").hasIp());
-        System.out.println(new IpFinder("Tu nie ma nawet żadnych cyfr!").getIp());
+        System.out.println(new IpFinder(testStrings[1]).hasIp());
+        System.out.println(new IpFinder(testStrings[1]).getIp());
+
+        System.out.println(new IpFinder(testStrings[2]).hasIp());
+        System.out.println(new IpFinder(testStrings[2]).getIp());
+
+        System.out.println(new IpFinder(testStrings[3]).hasIp());
+        System.out.println(new IpFinder(testStrings[3]).getIp());
     }
 }
