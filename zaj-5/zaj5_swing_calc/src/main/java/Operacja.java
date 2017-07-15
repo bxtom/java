@@ -1,0 +1,3 @@
+public enum Operacja {
+    DODAWANIE, ODEJMOWANIE, MNOZENIE, DZIELENIE;
+}
