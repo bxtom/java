@@ -6,13 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="zad-20_swing_list" />
-        <module name="zaj6_swing_list" />
+        <module name="zad_18_swing" />
+        <module name="zaj_05-06_zad_18_swing" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="zad-20_swing_list" target="1.8" />
-      <module name="zaj6_swing_list" target="1.8" />
+      <module name="zad_18_swing" target="1.8" />
+      <module name="zaj_05-06_zad_18_swing" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
